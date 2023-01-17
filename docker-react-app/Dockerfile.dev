@@ -1,0 +1,12 @@
+FROM node:alpine
+
+WORKDIR /usr/src/app
+
+# package.json가 수정되지 않은 경우 불필요한 install을 계속 하게됨
+COPY package.json ./
+
+RUN npm install
+
+COPY ./ ./
+
+CMD ["npm", "run", "start"]
