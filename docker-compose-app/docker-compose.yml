@@ -1,0 +1,8 @@
+version: '3'
+services:
+  docker-redis-server:
+    image: 'redis'
+  node-app:
+    build: .
+    ports:
+      - "9090:8083"
