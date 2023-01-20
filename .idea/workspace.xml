@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca10c95b-bfad-428b-ad04-fccd634e0e71" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/img/6-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/6-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/6-2.png" afterDir="false" />
+    <list default="true" id="ca10c95b-bfad-428b-ad04-fccd634e0e71" name="Changes" comment="doc: 6강 내용 수정">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-react-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-react-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker-react-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-react-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/docker-react-app/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,15 +27,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/user/Desktop/Study/docker/docker_study/img",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/user/Desktop/Study/docker/docker_study/img&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
@@ -49,7 +49,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673945339921</updated>
-      <workItem from="1673945342126" duration="2207000" />
+      <workItem from="1673945342126" duration="2541000" />
+      <workItem from="1673951234475" duration="164000" />
+      <workItem from="1674003729419" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1673945441566</created>
@@ -58,7 +60,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673945441567</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="6강 init">
+      <created>1673950977381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673950977381</updated>
+    </task>
+    <task id="LOCAL-00003" summary="doc: 6강 내용 수정">
+      <created>1673951132740</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673951132740</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +93,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="6강 init" />
+    <MESSAGE value="doc: 6강 내용 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc: 6강 내용 수정" />
   </component>
 </project>

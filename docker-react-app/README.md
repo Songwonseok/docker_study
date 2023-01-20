@@ -9,18 +9,18 @@
 
 - [Volume 적용](#Volume-적용)
 
-<br>
-
 ---
+
+<br>
 
 
 ## 개요
 
 ![6-0](../img/6-0.png)
 
-<br>
-
 ---
+
+<br>
 
 ##  도커파일 생성
 
@@ -39,9 +39,9 @@ COPY ./ ./
 CMD ["npm", "run", "start"]
 ```
 
-<br>
-
 ---
+
+<br>
 
 ## 도커파일 빌드
 
@@ -60,9 +60,9 @@ docker build -f Dockerfile.dev -t song7331/docker-react-app ./
 - 빌드전 로컬에 `node_modules` 폴더가 있다면 지우고 `Dockerfile`을 빌드하는게 좋다
   -  `RUN` 단계에서 생성됨(불필요한 `COPY` 방지)
 
-<br>
-
 ---
+
+<br>
 
 ## 이미지 실행
 
@@ -76,9 +76,10 @@ docker run -p 3000:3000 song7331/docker-react-app
 ```
 
 
+---
+
 <br>
 
----
 
 ## Volume 적용
 
@@ -88,13 +89,17 @@ docker run -p 3000:3000 song7331/docker-react-app
 
 
 
+![6-1](../img/6-5.png)
+
 ```bash
 docker run -p 3000:3000 -v /usr/src/app/node_modules -v $(pwd):/usr/src/app song7331/docker-react-app
 ```
 
+
+
 이렇게 실행하면 로컬 소스코드에서 변경된게 페이지에도 바로 반영된다.
 
-<br>
 
 ---
 
+<br>
